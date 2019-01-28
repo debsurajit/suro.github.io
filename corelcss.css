@@ -1,0 +1,745 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+body{
+
+  padding: 0px;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+ background-color: white;
+  float: left;
+}
+.subheader{
+  width: 1000px;
+  text-align:center;
+  height:100%;
+  margin: 0 auto;
+  
+
+}
+
+.logo{ 
+  float: left;
+  height:100%;
+
+}
+.corey{
+   color: #361F74;
+  font-size: 40px;
+  float:right; 
+  padding: 25px 0 0 20px;
+}
+.nav{
+  float:right;
+  padding:35px 0 0 0;
+  width:700px;
+}
+.nav ul { 
+   list-style-type: none;
+   text-align:center;
+}
+
+.nav li {
+  display:inline-block;
+}
+
+.nav li a {
+ 
+   color: #361F74;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  height:20px;
+  width:100px;
+  padding: 10px;
+}
+select {
+  width: 20px;
+  background-color: none;
+  height: 40px;
+  margin: 5px 0;
+  padding: 0  5px;
+  display:block;
+  border: 1px none #ccc;
+}
+.search{
+   width:40px;
+   height:30px;
+   border-radius:30px;
+   background-color:transparent;
+   border: 1px solid none;
+   cursor:pointer;
+}
+.searchdrop{
+  width:50%;
+  height:35px;
+
+  border-radius:10px;
+  position:absolute;
+  top:0%;
+  left:35%;
+  background-color:transparent;
+}
+input{
+   width:90%;
+  height:30px;
+  border-radius:20px;
+
+}
+
+.down{
+  width:30px;
+  height:20px;
+  background-color:transparent;
+  border: none;
+  color:white;
+  border-radius: 15px;
+  cursor:pointer;
+}
+.part1{
+  width: 100%;
+  height: 400px;
+  float: left;
+  text-align: center;
+  padding: 0px;
+  position: relative;
+}
+
+
+ .banner{
+  width:100%;
+  float:left;
+  position:absolute;
+  top: 50px;
+  height: 100px;
+  margin:0 auto;
+  color:white;
+  text-align:center;
+}
+.backimg{
+  width:100%;
+  height:100%;
+  opacity:0.4;
+  position: relative;
+}
+
+.back{
+  width:100%;
+  height: 100%;
+  position: relative;
+  float:left;
+  background-color:#000C5D;
+}
+
+.part2{
+  float:left;
+  width:100%;
+  height: 400px;
+  background-color: #DCDDE1;
+    color: #361F74;
+ /* padding: 10px;
+  position:relative;*/
+}
+.icons{
+text-decoration:none;
+text-align:left;
+color: black;
+padding: 0 10px;
+line-height: 40px;
+  color: #361F74;
+}
+.hel2{
+  padding: 20px 5px;
+  width: 28%;
+  height:100%;
+  float:left;
+  text-align:left;
+
+}
+
+.hel3{
+   padding: 20px 5px;
+  width: 68%;
+  height:100%;
+  float:right;
+}
+
+.part3{
+  width: 100%;
+  height: 600px;
+  float: left;
+  text-align: center;
+  padding: 0px;
+  position: relative;
+}
+
+
+ .block{
+  width:1000px;
+  float:left;
+  position:absolute;
+  top: 50px;
+  height: 60%;
+  margin:0 auto;
+  color:white;
+  text-align:center;
+}
+.subblock{
+  width:100%;
+  height:50%;
+  text-align:center;
+  position: absolute;
+  margin: 0 auto;
+  float:left;
+  padding: 0 0 20px 0;
+  /*padding: 5px;*/
+}
+.first{
+  width: 65%;
+  height:50%;
+  text-align:center;
+  float:left;
+  /*padding: 5px;*/
+  padding: 0 0 20px 0;
+}
+.other{
+  width: 35%;
+  height:50%;
+  text-align:center;
+  float:right;
+  /*padding: 5px;*/
+  padding: 0 0 20px 0;
+}
+.order{
+  width:100%;
+  height: 100px;
+  text-align:center;
+  float:left;
+  position:absolute;
+  top:400px;
+  padding: 10px 0 ;
+}
+.digital{
+  width: 50%;
+  height:100%;
+  text-align:center;
+  /*padding: 5px;*/
+   float:left;
+}
+.web{
+  width: 50%;
+  height:100%;
+  text-align:center;
+  /*padding: 5px;*/
+   float:right;
+}
+.round{
+  border-radius: 50%;
+}
+.bluebutton{
+  background-color:transparent;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  cursor:pointer;
+}
+.whitebutton{
+  background-color:transparent;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 10px;
+  color:#361F74;
+  font-weight: bold;
+  border: 2px solid #361F74;
+  cursor:pointer;
+}
+button:hover{
+  background-color:yellow;
+  color:black;
+  border:2px solid black;
+}
+
+.part4{
+  float:left;
+  width: 100%;
+  height: 1000px;
+ padding:20px 0 ;
+ background-color: #DCDDE1;
+   color: #361F74;
+}
+
+.photos{
+  width: 80%;
+  height: 70%;
+  margin: 0 auto;
+  /*padding: 20px 0 40px 0 ;*/ 
+}
+.showall{
+  float:left;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+}
+.showall ul { 
+   list-style-type: none;
+   text-align:center;
+   float:left;
+}
+
+.showall li {
+  display:inline-block;
+  padding: 10px;
+}
+
+.showall li a {
+ 
+  color:blue;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  height:20px;
+  width:100px;
+  padding: 10px;
+}
+.divide{
+  width:64%;
+  height:100%;
+  float:left;
+}
+.p1{
+  width:49%;
+  height:100%;
+  float:left;
+}
+.p2{
+  width:49%;
+  height:100%;
+  float:right;
+}
+.p3{
+  width:35%;
+  height:100%;
+  float:right;
+}
+.p11{
+  width:100%;
+  height:68%;
+  float:left;
+  padding: 0 0 10px 0;
+}
+.p12{
+  width:100%;
+  height:28%;
+  float:left;
+}
+.p21{
+  width:100%;
+  height:28%;
+  float:left;
+  padding: 0 0 10px 0;
+}
+.p22{
+  width:100%;
+  height:68%;
+  float:left;
+}
+.p221{
+  width:100%;
+  height:49%;
+  float:left;
+   padding: 0 0 10px 0;
+}
+.p222{
+  width:100%;
+  height:49%;
+  float:left;
+}
+.p31{
+  width:100%;
+  height:28%;
+  float:left;
+   padding: 0 0 10px 0;
+}
+.p32{
+  width:100%;
+  height:68%;
+  float:left;
+}
+.image1{
+  width:100%;
+  height:100%;
+  float:left;
+
+}
+
+.image2{
+  width:100%;
+  height:100%;
+  float:left;
+  
+}
+
+
+.part5{ 
+  float:left;
+  width: 100%;
+  height: 250px;
+  position:relative;
+}
+.five{
+  width: 1000px;
+  height:70%;
+  margin: 0 auto;
+  position:absolute;
+  top:15%;
+  text-align: center;
+}
+.part51{
+  float:left;
+  width: 50%;
+  height: 100%;
+  color:white;
+
+}
+.part52{
+  width:50%;
+  height:100%;
+  float:right;
+   color:white;
+  }
+
+.unique{
+  width:50%;
+  height:100%;
+  float:left;
+}
+.complete{
+  width:50%;
+  height:100%;
+  float:right;
+}
+.happy{
+  width:50%;
+  height:100%;
+  float:left;
+}
+.honors{
+  width:50%;
+  height:100%;
+  float:right;
+}
+
+.part6{
+   float:left;
+  width: 100%;
+  height: 600px;
+  position:relative;
+  padding: 15px 0 0 0;
+   background-color: #DCDDE1;
+  color: #361F74;
+}
+
+.package{
+   float:left;
+  width: 1000px;
+  height: 350px;
+  position:absolute;
+  top:10%;
+ /*left: 5%;*/
+}
+.subpack{
+   float:left;
+  width: 69%;
+  height: 100%;
+  margin: 0 0 0 10px;
+  text-align:center;
+
+
+}
+.extended{
+   float:right;
+  width: 29%;
+  height: 100%;
+  background-color: white;
+  text-align:center;
+  border-radius: 10px;
+   padding: 10px 0 ;
+
+}
+.trial{
+   float:left;
+  width: 48%;
+  height: 100%;
+  background-color:white;
+   border-radius: 10px;
+   padding: 10px 0 ;
+
+}
+.regular{
+   float:right;
+  width: 50%;
+  background-color:white;
+  height: 100%;
+   border-radius: 10px;
+  padding: 10px 0 ;
+}
+
+.left {
+ float:left;
+  width:50%;
+}
+ .right {
+ float:right;
+ width:50%;
+}
+
+.part7{
+  width: 100%;
+  height: 400px;
+  float: left;
+  position: relative;
+
+}
+.subpart7{
+  margin: 0 auto;
+  position: absolute;
+  top: 0%;
+  color: white;
+  width: 1000px;
+  height: 100%;
+  text-align:left;
+}
+.top7{
+  float: left;
+  width:1000px;
+  height: 100px;
+  position:relative;
+  top: 10%;
+  left: 50px;
+
+}
+.topleft{
+  float: left;
+  text-align:left;
+  width: 800px;
+  height: 100%;
+   
+
+}
+.arrow{
+  width:100px;
+  height: 42px;
+  float: right;
+  background-color: transparent;
+  position: absolute;
+  top: 2%;
+  right: 5%;
+
+}
+.leftarrow{
+  float: left;
+  width:49%;
+  height: 30px;
+
+}
+.rightarrow{
+  float: right;
+  width:49%;
+  height: 30px;
+}
+.buttom7{
+  width: 800px;
+  height: 300px;
+  margin: 0 auto;
+  
+
+}
+.img1{
+  float:left;
+  width: 49%;
+  height: 100%;
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+.img2{
+  float:right;
+  width: 49%;
+  height: 100%;
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+.part8{
+  width: 100%;
+  height: 500px;
+  float: left;
+  position: relative;
+
+   background-color: #DCDDE1;
+     color: #361F74;
+
+}
+.part8top{
+  float: left;
+  width:1000px;
+  height: 100px;
+  padding:20px 0 10px 0;
+  text-align:left;
+
+}
+
+.part8buttom{
+  float: left;
+  width: 1000px;
+  height: 350px;
+  
+}
+.buttom81{
+  width:65%;
+  height:90%;
+  float:left;
+  text-align:center; 
+ 
+}
+.buttom811{
+  width:49%;
+  height:100%;
+  float:left;
+  text-align:center; 
+  background-color:white;
+  border-radius:10px;
+}
+.buttom812{
+  width:49%;
+  height:100%;
+  float:right;
+  text-align:center; 
+   background-color:white;
+ border-radius:10px;
+}
+.buttom82{
+  width:33%;
+  height:90%;
+  float:right;
+  text-align:center; 
+   background-color:white;
+  border-radius:10px;
+}
+span{
+  font-weight:bold;
+  font-family: oswald;
+}
+h2{
+  font-weight:normal;
+  font-size: 50px;
+  font-family: oswald;
+}
+h1{
+  font-size: 55px;
+  font-weight:normal;
+  font-family: oswald;
+
+}
+h3{
+  font-size: 30px;
+  font-family: oswald;
+}
+
+footer{
+  width:100%;
+  height: 300px;
+  float:left;
+background-color:#000C5D;
+  color:white;
+  position:relative;
+}
+.subfooter{
+  width:1000px;
+  height:200px;
+  margin: 0 auto;
+  position:relative;
+  top: 10%;
+}
+.foottop{
+  width:1000px;
+  height:100px;
+  
+  float:left;
+}
+.footleft{
+  width:50%;
+  height: 150px;
+  float: left;
+  text-align:left;
+}
+.footright{
+  width:50%;
+  height: 150px;
+  float: right;
+  text-align:left;
+}
+.company{
+  width:50%;
+  height: 100%;
+  float:left;
+
+}
+.quick{
+  width:50%;
+  height: 100%;
+  float:left;
+  
+}
+
+.social{
+  width:50%;
+  height: 100%;
+  float:left;
+  
+}
+
+.subscribe{
+  width:50%;
+  height: 100%;
+  float:left; 
+}
+.company ul, .quick ul, .social ul, .icons ul{
+ list-style-type: none;
+}
+.email{
+  border-radius: 20px;
+  background-color: white;
+  color: blue;
+  text-align:center;
+  padding: 5px;
+}
+.backtotop{
+  border-radius: 20px;
+  background-color: white;
+  color: blue;
+  text-align:center;
+  padding: 5px;
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url('/font/oswald.regular.ttf');
+}
+
+/*html, body, div, span, h1, h2, h3, p{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    font-size: 15px;
+    font-family: oswald;
+    vertical-align:baseline
+} */
